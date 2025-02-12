@@ -79,13 +79,19 @@ Simply open `index.html` in your browser.
 Here are some screenshots of the project:
 
 #### 📌 Homepage:
-![Homepage](assets/homepage.png)
+![Homepage](ss/homepage.PNG)
 
-#### 📌 Admission Form:
-![Admission Form](assets/admission-form.png)
+#### 📌 why MBBS :
+![why MBBS?](ss/whyMBBS.PNG)
 
-#### 📌 Submission Confirmation:
-![Confirmation](assets/confirmation.png)
+#### 📌TOP countries:
+![top-countries](ss/topCountries.PNG)
+
+#### 📌admission process:
+![Admission](ss/admission.PNG)
+
+#### 📌CTA:
+![CTA](ss/CTA.PNG)
 ---
 
 ### **🤝 Contributing**
