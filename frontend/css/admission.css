@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #3b8d99, #6a93b7); /* Blue gradient */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    backdrop-filter: blur(8px);
+}
+
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.2);  /* Slight transparency */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+
+.form-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.form-label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+    color: #eee;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.form-input:focus {
+    border-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+
+.form-button {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 132, 255, 0.8);  
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: rgba(0, 120, 230, 0.9);  
+}
+
+.form-button:active {
+    background-color: rgba(0, 110, 200, 1); 
+}

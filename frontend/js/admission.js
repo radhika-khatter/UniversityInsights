@@ -9,13 +9,13 @@ document.getElementById("admissionForm").addEventListener("submit", async functi
     let emailRegex = /^\S+@\S+\.\S+$/;
     let phoneRegex = /^[0-9]{10}$/;
 
-    // Check for missing fields
+    
     if (!name || !email || !phone || !country) {
         alert("All fields are required!");
         return;
     }
 
-    // Email and Phone validation
+
     if (!emailRegex.test(email)) {
         alert("Enter a valid email!");
         return;
@@ -25,7 +25,7 @@ document.getElementById("admissionForm").addEventListener("submit", async functi
         return;
     }
 
-    // Send data to the backend API
+   
     let response = await fetch("http://localhost:5000/submit-form", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@
     overflow: hidden; 
 }
 
-/* Background Video */
+
 .bg-video {
     position: absolute;
     top: 50%;
@@ -25,7 +25,7 @@
 }
 
 
-/* Navigation Bar */
+
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -34,13 +34,13 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Logo */
+
 .logo img {
     height: 80px;
     width: auto;
 }
 
-/* Desktop Menu */
+
 .list-items {
     display: flex;
     gap: 20px;
@@ -52,7 +52,7 @@
     list-style: none;
     color: white;
     cursor: pointer;
-    font-size: 2.2rem; /* Default size */
+    font-size: 1.4rem; 
 }
 .list-items a{
     color: white;
@@ -64,10 +64,10 @@
 
 
 .apply-btn {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
-    background: linear-gradient(45deg, #007bff, #00c6ff); /* Blue Gradient */
+    background: linear-gradient(45deg, #007bff, #00c6ff); 
     color: white;
     border: none;
     border-radius: 30px;
@@ -76,7 +76,7 @@
 }
 
 
-/* Welcome Section */
+
 .welcome {
     background: linear-gradient(135deg, rgba(0, 0, 50, 0.9), rgba(0, 0, 150, 0.9));
     width: 80%;
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: white;
     font-weight: bold;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
@@ -100,7 +100,6 @@
 
 
 
-/* Button Styling */
 .welcome-btn {
     margin-top: 15px;
     font-size: 1.5rem;
@@ -115,19 +114,19 @@
     box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.4);
 }
 
-/* Hover Effect */
+
 .welcome-btn:hover {
     background: linear-gradient(45deg, #0056b3, #007bff);
     transform: scale(1.1);
 }
 
-/* Active (Click) Effect */
+
 .welcome-btn:active {
     transform: scale(0.95);
     box-shadow: 0px 2px 5px rgba(0, 123, 255, 0.6);
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .welcome {
         font-size: 1.2rem;
@@ -143,7 +142,7 @@
 .apply-btn:hover{
     background: linear-gradient(45deg, #001aff, #006eff); 
 }
-/* Mobile Menu Icon */
+
 .menu-icon {
     display: none;
     font-size: 2rem;
@@ -151,11 +150,11 @@
     color: white;
 }
 
-/* Sidebar (Mobile Menu) */
+
 .sidebar {
     position: fixed;
     top: 0;
-    right: -250px; /* Initially hidden */
+    right: -250px; 
     width: 250px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.9);
@@ -164,7 +163,7 @@
     z-index: 1000;
 }
 
-/* Sidebar Items */
+
 .sidebar-items {
     list-style: none;
     padding: 0;
@@ -188,46 +187,46 @@
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Close Button */
+
 .sidebar-items li:first-child {
     font-size: 2rem;
 }
 
-/* Sidebar Apply Button */
+
 .sidebar-items li .apply-btn {
     display: block;
     width: 90%;
     margin: 10px auto;
 }
 
-/* 🔹 Tablet View (481px - 1024px) */
+
 @media (max-width: 1024px) {
     .list-items li {
-        font-size: 1rem; /* Smaller font size for tablets */
+        font-size: 1rem;
     }
     .apply-btn{
         font-size: 1rem;
     }
 }
 
-/* 🔹 Mobile View (<= 768px) */
+
 @media (max-width: 768px) {
     .list-items {
-        display: none; /* Hide desktop menu */
+        display: none; 
     }
     .menu-icon {
-        display: block; /* Show menu icon */
+        display: block; 
     }
     #desktop-apply-btn {
-        display: none; /* Hide Apply Button on Navbar */
+        display: none; 
     }
 }
 
-/* Why Section */
+
 .why {
     position: relative;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     align-items: center;
     padding-left: 5vw;
@@ -236,19 +235,19 @@
     overflow: hidden;
 }
 
-/* Background Video */
+
 .why-video {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the video covers the entire section */
+    object-fit: cover; 
     transform: translate(-50%, -50%);
     z-index: -1;
 }
 
-/* Dark Overlay for Readability */
+
 .why::before {
     content: "";
     position: absolute;
@@ -256,11 +255,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust opacity for better contrast */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 0;
 }
 
-/* Content Wrapper */
+
 .why-content {
     position: relative;
     background-color: aliceblue;
@@ -273,28 +272,28 @@
     padding: 50px;
 }
 
-/* Main Heading */
+
 .why h1 {
-    font-size: 2.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 20px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Subheadings */
+
 .why .heading {
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-top: 15px;
 }
 
-/* Paragraphs */
+
 .why .content {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     line-height: 1.6;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .why {
         height: auto;
@@ -314,11 +313,11 @@
     }
 }
 
-/* Container */
+
 .countries {
     
-    min-height: auto; /* Allow dynamic height */
-    padding: 30px 5px; /* Reduced padding for better spacing */
+    min-height: auto; 
+    padding: 30px 5px; 
     background: linear-gradient(45deg, #0bbaf0, #c1d2d6);
     display: flex;
     flex-direction: column;
@@ -326,7 +325,7 @@
 }
 
 
-/* Heading */
+
 .top-countries-heading {
     text-align: center;
     font-size: 4rem;
@@ -335,19 +334,19 @@
     color: #333;
 }
 
-/* Cards Grid */
+
 .countries-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Ensure cards stay centered */
-    gap: 40px; /* Reduce gap to fit better */
-    max-width: 95vw; /* Prevents extra-wide layouts */
+    justify-content: center; 
+    gap: 40px; 
+    max-width: 95vw; 
 }
 
-/* Card */
+
 .card {
-    width: calc(25% - 15px); /* 4 cards per row */
-    max-width: 280px; /* Ensure it doesn't get too large */
+    width: calc(25% - 15px);
+    max-width: 280px;
     border-radius: 10px;
     overflow: hidden;
     background: white;
@@ -357,59 +356,59 @@
     padding-bottom: 10px;
 }
 
-/* Responsive Fixes */
+
 @media (max-width: 1024px) {
     .card {
-        width: calc(33.33% - 10px); /* 3 cards per row */
-        max-width: 250px; /* Reduce max size */
+        width: calc(33.33% - 10px); 
+        max-width: 250px; 
     }
 }
 
 @media (max-width: 768px) {
     .card {
-        width: calc(50% - 10px); /* 2 cards per row */
+        width: calc(50% - 10px); 
         max-width: 220px;
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        width: 90%; /* Full width on very small screens */
+        width: 90%; 
         max-width: 180px;
     }
 }
 
-/* Admission Process Section */
+
 .admission-process {
-    background-image: url('../assets/admission.jpg'); /* Replace with your image URL */
+    background-image: url('../assets/admission.jpg'); 
     background-size: cover;
     background-position: center;
-    color: #fff; /* Adjust text color for better contrast */
+    color: #fff; 
     padding: 2vh;
     height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
+
 .admission-process h2 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #fff; /* White text for better visibility */
+    color: #fff; 
     margin-bottom: 20px;
 }
 
-/* Subheading */
+
 .admission-process .intro {
     text-align: center;
     font-size: 1.3rem;
-    color: #f0f0f0; /* Slightly off-white for better contrast */
+    color: #f0f0f0; 
     margin-bottom: 30px;
 }
 
-/* Eligibility Criteria */
+
 .eligibility {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -434,9 +433,9 @@
     margin: 10px 0;
 }
 
-/* Application Process */
+
 .application-process {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -460,9 +459,9 @@
     margin: 10px 0;
 }
 
-/* Assistance Message */
+
 .assistance {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -472,7 +471,7 @@
     text-align: center;
 }
 
-/* Responsive Design for Admission Process */
+
 @media (max-width: 768px) {
     .admission-process {
         padding: 30px;
