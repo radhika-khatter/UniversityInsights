@@ -9,7 +9,7 @@
 ✅ Fully **responsive design** for all devices  
 ✅ **Form validation** for name, email, and phone number  
 ✅ **MongoDB database** to store form submissions  
-✅ **Deployed on Vercel & Netlify**  
+✅ **Deployed on Vercel**  
 
 
 ---
@@ -23,8 +23,8 @@
 ### **🛠️ Tech Stack**
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (Atlas)  
-- **Deployment:** Netlify, Vercel  
+- **Database:** MongoDB   
+- **Deployment:** Vercel 
 
 ---
 
